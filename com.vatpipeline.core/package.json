@@ -1,0 +1,18 @@
+{
+  "name": "com.vatpipeline.core",
+  "version": "1.0.0",
+  "displayName": "VAT Pipeline",
+  "description": "Bakes skinned characters to Vertex Animation Textures for GPU-instanced crowds. Includes a portable exporter (glb + PNG data textures + a decode spec) for engines that cannot consume Unity shaders, plus verification and benchmarking tools.",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "17.0.0",
+    "com.unity.inputsystem": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Host Project Integration",
+      "description": "The one file a host project writes: asset paths, menu items, and the hook that rewires a baked prefab's own components.",
+      "path": "Samples~/HostProjectIntegration"
+    }
+  ]
+}

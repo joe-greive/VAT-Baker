@@ -1,0 +1,7 @@
+{
+  "name": "VatPipeline.Editor",
+  "rootNamespace": "VatPipeline.EditorTools",
+  "references": ["VatPipeline.Runtime", "Unity.InputSystem"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

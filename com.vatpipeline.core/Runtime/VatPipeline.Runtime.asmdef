@@ -1,0 +1,6 @@
+{
+  "name": "VatPipeline.Runtime",
+  "rootNamespace": "VatPipeline",
+  "references": ["Unity.InputSystem"],
+  "autoReferenced": true
+}
